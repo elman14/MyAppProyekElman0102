@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyAppProyekElman0102</string>
+    <string name="biodata">Data pembuat Aplikasi</string>
+    <string name="volume_balok">Hitung Volume Balok</string>
+    <string name="volume_bola">Hitung Volume Bola</string>
+    <string name="calculator">App Kalkulator</string>
+    <string name="lenght">Panjang</string>
+    <string name="width">Lebar</string>
+    <string name="height">Tinggi</string>
+    <string name="calculate">Hitung</string>
+    <string name="result">Hasil</string>
+    <string name="jari">Jari Jari</string>
+</resources>

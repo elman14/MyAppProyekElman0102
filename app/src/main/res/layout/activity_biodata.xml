@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BiodataActivity">
+    
+    
+    <TextView
+        android:id="@+id/txt_mybiodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Biodata"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="250dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gambar"
+                android:contentDescription="ToDo"/>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: MUHAMMAD ELMAN"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+         />
+    <TextView
+        android:id="@+id/txt_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nim: 1710520102"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoby: Bermain Game, Nonton Video "
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cita-Cita: Menjadi Sukses "
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
